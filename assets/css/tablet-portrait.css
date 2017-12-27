@@ -1,0 +1,54 @@
+/* line 2, ../sass/tablet-portrait.scss */
+#about, #contact, #project {
+  padding-left: 25px;
+}
+
+/* line 7, ../sass/tablet-portrait.scss */
+#home .project, #work .project {
+  width: Calc((100% / 2) - 25.1px );
+}
+/* line 9, ../sass/tablet-portrait.scss */
+#home .project .coverimage, #work .project .coverimage {
+  height: Calc(((100vw / 2) - 25px) / 1.618);
+}
+
+/* line 17, ../sass/tablet-portrait.scss */
+#project #project-info #client {
+  margin-bottom: 25px;
+}
+/* line 19, ../sass/tablet-portrait.scss */
+#project #project-info #client #name {
+  width: 100%;
+}
+/* line 25, ../sass/tablet-portrait.scss */
+#project #project-media .img {
+  display: inline-block;
+  background-color: #000;
+  opacity: 0.2;
+  margin-bottom: 25px;
+}
+/* line 31, ../sass/tablet-portrait.scss */
+#project #project-media .img.landscape {
+  width: 100%;
+  height: Calc((100vw - 50px) / 1.618);
+}
+/* line 35, ../sass/tablet-portrait.scss */
+#project #project-media .img.portrait {
+  height: Calc(100vh - 50px);
+  width: Calc((100vh - 50px) / 1.618);
+}
+
+/* line 45, ../sass/tablet-portrait.scss */
+#about #clients .info-block .left {
+  display: block;
+  margin-bottom: 25px;
+}
+/* line 49, ../sass/tablet-portrait.scss */
+#about #clients .info-block .right {
+  width: 100%;
+}
+
+/* line 59, ../sass/tablet-portrait.scss */
+#contact section #headline #info {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,526 @@
+@font-face {
+  font-family: sanslight;
+  src: url("../fonts/Roboto-light.ttf");
+}
+@font-face {
+  font-family: sansregular;
+  src: url("../fonts/Roboto-regular.ttf");
+}
+@font-face {
+  font-family: sansbold;
+  src: url("../fonts/Roboto-bold.ttf");
+}
+@font-face {
+  font-family: sansmedium;
+  src: url("../fonts/Roboto-medium.ttf");
+}
+@font-face {
+  font-family: title;
+  src: url("../fonts/RobotoCondensed-Bold.ttf");
+}
+/* line 10, ../sass/style.scss */
+html, body {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  color: #000;
+  font-family: sansregular;
+  letter-spacing: 0.2px;
+}
+
+/* line 20, ../sass/style.scss */
+main {
+  position: relative;
+  margin-top: 100px;
+  width: 100%;
+  min-height: 100%;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+/* line 27, ../sass/style.scss */
+main section {
+  position: relative;
+  width: 100%;
+}
+/* line 30, ../sass/style.scss */
+main section .inner {
+  display: inline-block;
+  max-width: 1100px;
+  width: 100%;
+  text-align: left;
+}
+/* line 35, ../sass/style.scss */
+main section .inner .large-text-block {
+  max-width: 900px;
+}
+/* line 39, ../sass/style.scss */
+main section .inner .medium-text-block {
+  max-width: 600px;
+}
+
+/* line 47, ../sass/style.scss */
+#about, #contact, #project {
+  padding-left: 150px;
+}
+
+/* line 51, ../sass/style.scss */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  41% {
+    opacity: 0.3;
+  }
+  99% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* line 64, ../sass/style.scss */
+header {
+  position: relative;
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+/* line 71, ../sass/style.scss */
+header #name {
+  float: left;
+  font-family: sansbold;
+  font-size: 14px;
+  line-height: 21px;
+}
+/* line 76, ../sass/style.scss */
+header #name .cursor {
+  display: inline-block;
+  width: 1px;
+  height: 21px;
+  transform: translateY(6px);
+  background-color: #000;
+  opacity: 0;
+  animation: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+/* line 88, ../sass/style.scss */
+header #pages {
+  margin-top: 8px;
+  float: right;
+}
+/* line 91, ../sass/style.scss */
+header #pages .page {
+  display: inline-block;
+  margin-left: 10px;
+  padding-bottom: 4px;
+  font-size: 14px;
+  font-family: sansregular;
+  color: #000;
+  opacity: 0.3;
+  text-decoration: none;
+}
+/* line 101, ../sass/style.scss */
+header #pages .current, header #pages .page:hover {
+  border-bottom: 2px solid #000;
+  opacity: 1;
+}
+
+/* line 108, ../sass/style.scss */
+#home, #work {
+  padding: 0 0 0 25px;
+  font-size: 0px;
+}
+/* line 111, ../sass/style.scss */
+#home .project, #work .project {
+  display: inline-block;
+  width: Calc(33.3% - 25px);
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+/* line 117, ../sass/style.scss */
+#home .project a.title span, #work .project a.title span {
+  display: inline-block;
+  padding-bottom: 4px;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  font-family: sansregular;
+  border-bottom: 2px solid transparent;
+  color: #000;
+  cursor: pointer;
+}
+/* line 130, ../sass/style.scss */
+#home .project .coverimage, #work .project .coverimage {
+  display: block;
+  width: 100%;
+  height: Calc((((100vw - 25px) / 3) - 25px) / 1.618);
+  margin-bottom: 10px;
+  background-color: #000;
+  opacity: 0.3;
+  cursor: pointer;
+}
+/* line 141, ../sass/style.scss */
+#home .project:hover a.title span, #work .project:hover a.title span {
+  border-bottom: 2px solid #000;
+}
+
+/* line 149, ../sass/style.scss */
+#about #intro .headline {
+  max-width: 700px;
+  width: 100%;
+}
+/* line 152, ../sass/style.scss */
+#about #intro .headline p {
+  font-size: 28px;
+  color: #000;
+}
+/* line 159, ../sass/style.scss */
+#about #clients {
+  max-width: 900px;
+  width: 100%;
+  padding-top: 50px;
+  text-align: left;
+}
+/* line 164, ../sass/style.scss */
+#about #clients .info-block {
+  display: inline-block;
+  max-width: 900px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+/* line 169, ../sass/style.scss */
+#about #clients .info-block .left {
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin-right: 25px;
+}
+/* line 175, ../sass/style.scss */
+#about #clients .info-block .left .title {
+  display: inline-block;
+  padding-bottom: 4px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: sansbold;
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+/* line 185, ../sass/style.scss */
+#about #clients .info-block .right {
+  width: Calc(100% - 130px);
+  max-width: 600px;
+  display: inline-block;
+  padding-top: 2px;
+  text-align: left;
+  font-size: 18px;
+}
+/* line 192, ../sass/style.scss */
+#about #clients .info-block .right .client {
+  display: inline-block;
+}
+/* line 194, ../sass/style.scss */
+#about #clients .info-block .right .client .name {
+  font-family: sanslight;
+}
+/* line 197, ../sass/style.scss */
+#about #clients .info-block .right .client .dot {
+  margin: 0 7px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background-color: #000;
+}
+/* line 208, ../sass/style.scss */
+#about #clients .info-block .right .client:last-of-type .dot {
+  display: none;
+}
+
+/* line 218, ../sass/style.scss */
+#project #project-info {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+/* line 221, ../sass/style.scss */
+#project #project-info #client {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 50px;
+}
+/* line 225, ../sass/style.scss */
+#project #project-info #client #name {
+  width: 400px;
+  font-size: 36px;
+  font-family: sansbold;
+  margin-bottom: 15px;
+}
+/* line 231, ../sass/style.scss */
+#project #project-info #client #project-type {
+  font-family: sanslight;
+  font-size: 18px;
+}
+/* line 236, ../sass/style.scss */
+#project #project-info #project-description {
+  display: inline-block;
+  width: 525px;
+  font-size: 21px;
+  line-height: 34px;
+  font-family: sansregular;
+}
+/* line 244, ../sass/style.scss */
+#project #project-media {
+  margin-bottom: 50px;
+  width: 100%;
+}
+/* line 247, ../sass/style.scss */
+#project #project-media .img {
+  display: inline-block;
+  background-color: #000;
+  opacity: 0.2;
+  margin-bottom: 25px;
+}
+/* line 253, ../sass/style.scss */
+#project #project-media .img.landscape {
+  width: 100%;
+  height: Calc((100vw - 175px) / 1.618);
+}
+/* line 257, ../sass/style.scss */
+#project #project-media .img.portrait {
+  height: Calc(100vh - 50px);
+  width: Calc((100vh - 50px) / 1.618);
+}
+
+/* line 265, ../sass/style.scss */
+#contact #headline {
+  max-width: 900px;
+  width: 100%;
+  font-size: 14px;
+}
+/* line 269, ../sass/style.scss */
+#contact #headline #info {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 100px;
+  font-family: sansbold;
+}
+/* line 274, ../sass/style.scss */
+#contact #headline #info #email, #contact #headline #info #phone {
+  display: block;
+  margin-bottom: 25px;
+}
+/* line 277, ../sass/style.scss */
+#contact #headline #info #email span, #contact #headline #info #phone span {
+  border-bottom: 2px solid #000;
+  padding-bottom: 4px;
+}
+/* line 283, ../sass/style.scss */
+#contact #headline #form {
+  display: inline-block;
+}
+
+/* line 289, ../sass/style.scss */
+#mc_embed_signup_scroll .mc-field-group {
+  margin-bottom: 25px;
+}
+/* line 291, ../sass/style.scss */
+#mc_embed_signup_scroll .mc-field-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+/* line 296, ../sass/style.scss */
+#mc_embed_signup_scroll .mc-field-group input, #mc_embed_signup_scroll .mc-field-group textarea {
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 18px;
+}
+/* line 302, ../sass/style.scss */
+#mc_embed_signup_scroll .mc-field-group #mce-MMERGE2 {
+  width: 300px;
+  height: 150px;
+  resize: none;
+  border-bottom: none;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+/* line 309, ../sass/style.scss */
+#mc_embed_signup_scroll .mc-field-group textarea:focus, #mc_embed_signup_scroll .mc-field-group input:focus {
+  outline: none;
+}
+/* line 314, ../sass/style.scss */
+#mc_embed_signup_scroll .clear #mc-embedded-subscribe {
+  background-color: transparent;
+  padding: 0px;
+  padding-bottom: 4px;
+  border: 0px;
+  font-size: 14px;
+  border-bottom: 2px solid #000;
+}
+
+@media (max-width: 599px) {
+  /* line 2, ../sass/phone.scss */
+  #about, #contact, #project {
+    padding-left: 25px;
+  }
+
+  /* line 7, ../sass/phone.scss */
+  #home .project, #work .project {
+    width: Calc((100% - 25px) /  1 );
+  }
+  /* line 9, ../sass/phone.scss */
+  #home .project .coverimage, #work .project .coverimage {
+    height: Calc(((( 100vw - 25px) / 1 ) - 25px) / 1.618);
+  }
+
+  /* line 17, ../sass/phone.scss */
+  #project #project-info #client {
+    margin-bottom: 25px;
+  }
+  /* line 19, ../sass/phone.scss */
+  #project #project-info #client #name {
+    width: 100%;
+  }
+  /* line 25, ../sass/phone.scss */
+  #project #project-media .img {
+    display: inline-block;
+    background-color: #000;
+    opacity: 0.2;
+    margin-bottom: 25px;
+  }
+  /* line 31, ../sass/phone.scss */
+  #project #project-media .img.landscape {
+    width: 100%;
+    height: Calc((100vw - 50px) / 1.618);
+  }
+  /* line 35, ../sass/phone.scss */
+  #project #project-media .img.portrait {
+    height: Calc(100vh - 50px);
+    width: Calc((100vh - 50px) / 1.618);
+  }
+
+  /* line 45, ../sass/phone.scss */
+  #about #clients .info-block .left {
+    display: block;
+    margin-bottom: 25px;
+  }
+  /* line 49, ../sass/phone.scss */
+  #about #clients .info-block .right {
+    width: 100%;
+  }
+
+  /* line 59, ../sass/phone.scss */
+  #contact section #headline #info {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 600px) {
+  /* line 2, ../sass/tablet-portrait.scss */
+  #about, #contact, #project {
+    padding-left: 25px;
+  }
+
+  /* line 7, ../sass/tablet-portrait.scss */
+  #home .project, #work .project {
+    width: Calc((100% / 2) - 25.1px );
+  }
+  /* line 9, ../sass/tablet-portrait.scss */
+  #home .project .coverimage, #work .project .coverimage {
+    height: Calc(((100vw / 2) - 25px) / 1.618);
+  }
+
+  /* line 17, ../sass/tablet-portrait.scss */
+  #project #project-info #client {
+    margin-bottom: 25px;
+  }
+  /* line 19, ../sass/tablet-portrait.scss */
+  #project #project-info #client #name {
+    width: 100%;
+  }
+  /* line 25, ../sass/tablet-portrait.scss */
+  #project #project-media .img {
+    display: inline-block;
+    background-color: #000;
+    opacity: 0.2;
+    margin-bottom: 25px;
+  }
+  /* line 31, ../sass/tablet-portrait.scss */
+  #project #project-media .img.landscape {
+    width: 100%;
+    height: Calc((100vw - 50px) / 1.618);
+  }
+  /* line 35, ../sass/tablet-portrait.scss */
+  #project #project-media .img.portrait {
+    height: Calc(100vh - 50px);
+    width: Calc((100vh - 50px) / 1.618);
+  }
+
+  /* line 45, ../sass/tablet-portrait.scss */
+  #about #clients .info-block .left {
+    display: block;
+    margin-bottom: 25px;
+  }
+  /* line 49, ../sass/tablet-portrait.scss */
+  #about #clients .info-block .right {
+    width: 100%;
+  }
+
+  /* line 59, ../sass/tablet-portrait.scss */
+  #contact section #headline #info {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 900px) {
+  /* line 2, ../sass/tablet-landscape.scss */
+  #about, #contact, #project {
+    padding-left: 150px;
+  }
+
+  /* line 7, ../sass/tablet-landscape.scss */
+  #home .project, #work .project {
+    width: Calc((100% / 3) - 25.2px );
+  }
+  /* line 9, ../sass/tablet-landscape.scss */
+  #home .project .coverimage, #work .project .coverimage {
+    height: Calc(((100vw / 3) - 25px) / 1.618);
+  }
+
+  /* line 17, ../sass/tablet-landscape.scss */
+  #project #project-info #client {
+    margin-bottom: 25px;
+  }
+  /* line 19, ../sass/tablet-landscape.scss */
+  #project #project-info #client #name {
+    width: 100%;
+  }
+  /* line 25, ../sass/tablet-landscape.scss */
+  #project #project-media .img {
+    width: 100%;
+    height: Calc((100vw - 50px) / 1.618);
+  }
+
+  /* line 35, ../sass/tablet-landscape.scss */
+  #about #clients .info-block .left {
+    display: block;
+    margin-bottom: 25px;
+  }
+  /* line 39, ../sass/tablet-landscape.scss */
+  #about #clients .info-block .right {
+    width: 100%;
+  }
+
+  /* line 49, ../sass/tablet-landscape.scss */
+  #contact section #headline #info {
+    margin-bottom: 50px;
+  }
+}

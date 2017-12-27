@@ -1,0 +1,9 @@
+.hero-image {
+	margin-top: .5em;
+	display: none;
+	max-width: 100px;
+}
+
+.hero-image.active {
+	display: block;
+}

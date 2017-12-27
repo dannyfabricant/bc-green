@@ -1,0 +1,42 @@
+/* line 2, ../sass/tablet-landscape.scss */
+#about, #contact, #project {
+  padding-left: 150px;
+}
+
+/* line 7, ../sass/tablet-landscape.scss */
+#home .project, #work .project {
+  width: Calc((100% / 3) - 25.2px );
+}
+/* line 9, ../sass/tablet-landscape.scss */
+#home .project .coverimage, #work .project .coverimage {
+  height: Calc(((100vw / 3) - 25px) / 1.618);
+}
+
+/* line 17, ../sass/tablet-landscape.scss */
+#project #project-info #client {
+  margin-bottom: 25px;
+}
+/* line 19, ../sass/tablet-landscape.scss */
+#project #project-info #client #name {
+  width: 100%;
+}
+/* line 25, ../sass/tablet-landscape.scss */
+#project #project-media .img {
+  width: 100%;
+  height: Calc((100vw - 50px) / 1.618);
+}
+
+/* line 35, ../sass/tablet-landscape.scss */
+#about #clients .info-block .left {
+  display: block;
+  margin-bottom: 25px;
+}
+/* line 39, ../sass/tablet-landscape.scss */
+#about #clients .info-block .right {
+  width: 100%;
+}
+
+/* line 49, ../sass/tablet-landscape.scss */
+#contact section #headline #info {
+  margin-bottom: 50px;
+}

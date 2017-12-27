@@ -1,0 +1,57 @@
+title: About
+
+pages: false
+files: true
+
+options: 
+  template: false  
+  status: false  
+  
+fields:
+  headline1:
+    label: Page info
+    type: tabs
+  title:
+    label: Title
+    type: title
+    
+  intro:
+    label: Intro
+    type: textarea
+
+  headline2:
+    label: people
+    type: tabs
+  people:
+    label: People
+    type: builder
+    fieldsets:
+      person:
+        label: add new person
+        snippet: sections/person
+        entry: sections/person
+        fields:
+          picture:
+            label: photo
+            type: hero
+            help: To select
+          name:
+            label: name
+            type: text
+          description:
+            label: description
+            type: textarea
+
+  headline3:
+    label: Clients
+    type: tabs
+  clients:
+    type: list
+    placeholder: Add new client
+
+  headline4s:
+      label: Services
+      type: tabs
+  services:
+    type: list
+    placeholder: Add new service

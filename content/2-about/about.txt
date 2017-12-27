@@ -1,0 +1,76 @@
+Title: About
+
+----
+
+Intro: This is a place where you can put a few big, bold sentences about yourselves.  Probably good sentences. A few of them, not too many.
+
+----
+
+Text: 
+
+This could be a more detailed paragraph. Probably longer, maybe a few more sentences. Here's some lorem ipsum to make it a more realistic length. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in quam orci. Pellentesque tempor dolor vel turpis blandit aliquam. Nunc a diam quis metus euismod malesuada ac vitae magna. Aliquam et risus lorem. Mauris non aliquam odio. Donec vel lobortis orci. Mauris id lorem ipsum. Pellentesque eget accumsan dolor. Proin ullamcorper laoreet lectus, at venenatis neque sagittis vel.
+
+Aliquam enim lorem, fringilla vel tellus a, sodales laoreet diam. Donec eget posuere nunc, ut varius erat. Fusce eu iaculis neque, id pellentesque velit. Vestibulum et vestibulum justo. Suspendisse eu diam augue. In hac habitasse platea dictumst. Sed ut metus at elit facilisis pharetra vel congue odio.
+
+ABCAl Jazeera AmericaAMCAndroidBBCCadillacCNNCooking ChannelComedy CentralComcastThe CWEileen FisherESPNFocus FeaturesFXGE HealthHBOHewlett-PackardHistory ChannelIFCIntelInternational Center for PhotographyKickstarterLincoln AutomotiveMagic LeapMetropolis MagazineMicrosoftMPAAThe Museum of Modern ArtNational GeographicNBCNetflixThe New York TimesNickelodeonPBSPérez Art Museum MiamiShowtimeSpotifySundance TVSyfyUPSVH1ViceWarner BrosThe Weather Channel
+
+----
+
+Clients: 
+
+- ABC
+- Al Jazeera America
+- AMC
+- Android
+- BBC
+- Cadillac
+- CNN
+- Cooking Channel
+- Comedy Central
+- Comcast
+- The CW
+- Eileen Fisher
+- ESPN
+- Focus Features
+- FX
+- GE Health
+- HBO
+- Hewlet Packard
+- History CHannel
+- IFC
+- Intel
+- International Center for Photography
+- Kickstarter
+- Lincoln Automotive
+- Magic Leap
+- Metropolis Magazine
+
+----
+
+Services: 
+
+- branding
+- strategy
+- copywriting
+- you
+- can
+- pay
+- me
+- a
+- lot
+- for
+- these
+- things
+- design
+- media
+- content
+
+----
+
+People: 
+
+- 
+  picture: ""
+  name: Eva Green
+  description: ""
+  _fieldset: person

@@ -1,0 +1,20 @@
+title: Work
+
+files: false
+
+options: 
+  template: false  
+  status: false  
+  url: false  
+  
+pages:
+  template: project
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  textarea

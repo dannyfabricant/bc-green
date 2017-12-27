@@ -1,0 +1,65 @@
+
+#about,#contact, #project {
+	padding-left: 25px;
+}
+
+#home, #work {
+	.project {
+		width: Calc((100% - 25px) /  1 );
+		.coverimage {
+			height: Calc(((( 100vw - 25px) / 1 ) - 25px) / 1.618);
+		}
+	}
+}
+
+#project {
+	#project-info {
+		#client {
+			margin-bottom: 25px;
+			#name {
+				width: 100%;
+			}
+		}
+	}
+	#project-media {
+		.img {
+			display: inline-block;
+			background-color: #000;
+			opacity: 0.2;
+			margin-bottom: 25px;
+		}
+		.img.landscape {
+			width: 100%;
+			height: Calc((100vw - 50px) / 1.618);
+		}
+		.img.portrait {
+			height: Calc(100vh - 50px);
+			width: Calc((100vh - 50px) / 1.618);
+		}
+	}
+}
+
+#about{
+	#clients {
+		.info-block {
+			.left {
+				display: block;
+				margin-bottom: 25px;
+			}
+			.right {
+				width: 100%;
+			}
+		}
+	}
+}
+
+#contact {
+	section {
+		#headline {
+			#info {
+				margin-bottom: 50px;
+			}
+		}
+	}
+}
+
