@@ -13,7 +13,7 @@ html, body {
 	padding: 0px;
 	width: 100%;
 	color: #000;
-	font-family: sansregular;
+	font-family: 'robotoregular';
 	letter-spacing: 0.2px;
 }
 
@@ -70,7 +70,7 @@ header {
 	box-sizing: border-box;
 	#name {
 		float: left;
-		font-family: sansbold;
+		font-family: 'robotobold';
 		font-size: $small;
 		line-height: 21px;
 		.cursor {
@@ -93,7 +93,7 @@ header {
 			margin-left: 10px;
 			padding-bottom: 4px;
 			font-size: $small;
-			font-family: sansregular;
+			font-family: 'robotoregular';
 			color: #000;
 			opacity: 0.3;
 			text-decoration: none;
@@ -120,7 +120,7 @@ header {
 				padding-bottom: 4px;
 				font-size: $medium;
 				letter-spacing: 0.6px;
-				font-family: sansregular;
+				font-family: 'robotoregular';
 				border-bottom: 2px solid transparent;
 				color: #000;
 				cursor: pointer;
@@ -177,7 +177,7 @@ header {
 					padding-bottom: 4px;
 					font-size: $small;
 					letter-spacing: 1px;
-					font-family: sansbold;
+					font-family: 'robotobold';
 					color: #000;
 					border-bottom: 2px solid #000;
 				}
@@ -192,7 +192,7 @@ header {
 				.client {
 					display: inline-block;
 					.name {
-						font-family: sanslight;
+						font-family: 'robotolight';
 					}
 					.dot {
 						margin: 0 7px;
@@ -225,11 +225,11 @@ header {
 			#name {
 				width: 400px;
 				font-size: 36px;
-				font-family: sansbold;
+				font-family: 'robotobold';
 				margin-bottom: 15px;
 			}
 			#project-type {
-				font-family: sanslight;
+				font-family: 'robotolight';
 				font-size: $medium;
 			}
 		}
@@ -238,7 +238,7 @@ header {
 			width: 525px;
 			font-size: 21px;
 			line-height: 34px;
-			font-family: sansregular;
+			font-family: 'robotoregular';
 		}
 	}
 	#project-media {
@@ -270,7 +270,7 @@ header {
 			vertical-align: top;
 			display: inline-block;
 			margin-right: 100px;
-			font-family: sansbold;
+			font-family: 'robotobold';
 			#email, #phone {
 				display: block;
 				margin-bottom: 25px;

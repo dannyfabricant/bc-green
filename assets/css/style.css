@@ -1,22 +1,20 @@
 @font-face {
-  font-family: sanslight;
-  src: url("../fonts/Roboto-light.ttf");
+  font-family: 'robotobold';
+  src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"), url("../fonts/roboto-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: sansregular;
-  src: url("../fonts/Roboto-regular.ttf");
+  font-family: 'robotolight';
+  src: url("../fonts/roboto-light-webfont.woff2") format("woff2"), url("../fonts/roboto-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: sansbold;
-  src: url("../fonts/Roboto-bold.ttf");
-}
-@font-face {
-  font-family: sansmedium;
-  src: url("../fonts/Roboto-medium.ttf");
-}
-@font-face {
-  font-family: title;
-  src: url("../fonts/RobotoCondensed-Bold.ttf");
+  font-family: 'robotoregular';
+  src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 /* line 10, ../sass/style.scss */
 html, body {
@@ -25,7 +23,7 @@ html, body {
   padding: 0px;
   width: 100%;
   color: #000;
-  font-family: sansregular;
+  font-family: 'robotoregular';
   letter-spacing: 0.2px;
 }
 
@@ -97,7 +95,7 @@ header {
 /* line 71, ../sass/style.scss */
 header #name {
   float: left;
-  font-family: sansbold;
+  font-family: 'robotobold';
   font-size: 14px;
   line-height: 21px;
 }
@@ -124,7 +122,7 @@ header #pages .page {
   margin-left: 10px;
   padding-bottom: 4px;
   font-size: 14px;
-  font-family: sansregular;
+  font-family: 'robotoregular';
   color: #000;
   opacity: 0.3;
   text-decoration: none;
@@ -153,7 +151,7 @@ header #pages .current, header #pages .page:hover {
   padding-bottom: 4px;
   font-size: 18px;
   letter-spacing: 0.6px;
-  font-family: sansregular;
+  font-family: 'robotoregular';
   border-bottom: 2px solid transparent;
   color: #000;
   cursor: pointer;
@@ -211,7 +209,7 @@ header #pages .current, header #pages .page:hover {
   padding-bottom: 4px;
   font-size: 14px;
   letter-spacing: 1px;
-  font-family: sansbold;
+  font-family: 'robotobold';
   color: #000;
   border-bottom: 2px solid #000;
 }
@@ -230,7 +228,7 @@ header #pages .current, header #pages .page:hover {
 }
 /* line 194, ../sass/style.scss */
 #about #clients .info-block .right .client .name {
-  font-family: sanslight;
+  font-family: 'robotolight';
 }
 /* line 197, ../sass/style.scss */
 #about #clients .info-block .right .client .dot {
@@ -262,12 +260,12 @@ header #pages .current, header #pages .page:hover {
 #project #project-info #client #name {
   width: 400px;
   font-size: 36px;
-  font-family: sansbold;
+  font-family: 'robotobold';
   margin-bottom: 15px;
 }
 /* line 231, ../sass/style.scss */
 #project #project-info #client #project-type {
-  font-family: sanslight;
+  font-family: 'robotolight';
   font-size: 18px;
 }
 /* line 236, ../sass/style.scss */
@@ -276,7 +274,7 @@ header #pages .current, header #pages .page:hover {
   width: 525px;
   font-size: 21px;
   line-height: 34px;
-  font-family: sansregular;
+  font-family: 'robotoregular';
 }
 /* line 244, ../sass/style.scss */
 #project #project-media {
@@ -312,7 +310,7 @@ header #pages .current, header #pages .page:hover {
   vertical-align: top;
   display: inline-block;
   margin-right: 100px;
-  font-family: sansbold;
+  font-family: 'robotobold';
 }
 /* line 274, ../sass/style.scss */
 #contact #headline #info #email, #contact #headline #info #phone {
