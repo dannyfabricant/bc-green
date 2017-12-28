@@ -509,7 +509,7 @@ header #pages .current, header #pages .page:hover {
 
   /* line 35, ../sass/tablet-landscape.scss */
   #about #clients .info-block .left {
-    display: block;
+    display: inline-block;
     margin-bottom: 25px;
   }
   /* line 39, ../sass/tablet-landscape.scss */
