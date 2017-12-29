@@ -148,7 +148,7 @@ header #pages .current, header #pages .page:hover {
 /* line 117, ../sass/style.scss */
 #home .project a.title span, #work .project a.title span {
   display: inline-block;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
   font-size: 18px;
   letter-spacing: 0.6px;
   font-family: 'robotoregular';
@@ -339,12 +339,13 @@ header #pages .current, header #pages .page:hover {
 }
 /* line 296, ../sass/style.scss */
 #mc_embed_signup_scroll .mc-field-group input, #mc_embed_signup_scroll .mc-field-group textarea {
+  padding-bottom: 5px;
   width: 200px;
   border: none;
   border-bottom: 1px solid #000;
   font-size: 18px;
 }
-/* line 302, ../sass/style.scss */
+/* line 303, ../sass/style.scss */
 #mc_embed_signup_scroll .mc-field-group #mce-MMERGE2 {
   width: 300px;
   height: 150px;
@@ -352,11 +353,11 @@ header #pages .current, header #pages .page:hover {
   border-bottom: none;
   background-color: rgba(0, 0, 0, 0.03);
 }
-/* line 309, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 #mc_embed_signup_scroll .mc-field-group textarea:focus, #mc_embed_signup_scroll .mc-field-group input:focus {
   outline: none;
 }
-/* line 314, ../sass/style.scss */
+/* line 315, ../sass/style.scss */
 #mc_embed_signup_scroll .clear #mc-embedded-subscribe {
   background-color: transparent;
   padding: 0px;

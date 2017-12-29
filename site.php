@@ -1,3 +1,3 @@
 <?php
 $kirby = kirby();
-$kirby->urls->index = 'http://yourdomain.com';
+// $kirby->urls->index = 'http://yourdomain.com';
